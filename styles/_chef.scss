@@ -1,0 +1,61 @@
+.chef {
+    background-color: $bg-color;
+    &__img {
+        width: 100%;
+        max-width: 398px;
+        margin-bottom: 30px;
+    }
+    &__subtitle {
+        color: $font-secondary-color;
+        font-size: $medium-font;
+        margin: 30px 0;
+    }
+    &__text {
+        font-size: $base-font;
+        line-height: 41.19px;
+        max-width: 939px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .chef {
+        &__img {
+            max-width: 282px;
+        }
+        &__subtitle {
+            font-size: $xsmall-font;
+        }
+        &__text {
+            font-size: $xsmall-font;
+            line-height: 30.21px;
+            max-width: 691px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .chef {
+        &__img {
+            max-width: 251px;
+            margin-bottom: 20px;
+        }
+        &__subtitle {
+            font-size: $small-font;
+            margin: 20px auto 20px;
+        }
+        &__text {
+            font-size: $small-font;
+            line-height: 27.46px;
+            max-width: 626px;
+        }
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .chef {
+        &__text {
+            padding: 0 15px;
+        }
+    }
+}

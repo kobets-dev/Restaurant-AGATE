@@ -1,0 +1,39 @@
+.footer {
+    background-color: #262626;
+    color: white;
+    &__title {
+        font-size: 2.16rem;
+        margin-bottom: 60px;
+    }
+    &__text {
+        color: #B1B1B1;
+        font-size: $medium-font;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        &__title {
+            font-size: 1.66rem;
+            margin-bottom: 50px;
+        }
+        &__text {
+            font-size: $small-font;
+            margin-bottom: 47px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        &__title {
+            font-size: 1.33rem;
+            margin-bottom: 50px;
+        }
+        &__text {
+            font-size: 0.6rem;
+            margin-bottom: 35px;
+        }
+    }
+}

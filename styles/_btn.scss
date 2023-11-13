@@ -1,0 +1,16 @@
+.btn--white {
+    @include btn(white, white)
+}
+
+.btn--black {
+    @include btn(black, black)
+}
+
+@media screen and (max-width: 1024px) {
+    .btn {
+        font-size: 0.56rem;
+        width: 248px;
+        height: 48px;
+        line-height: 48px;
+    }
+}

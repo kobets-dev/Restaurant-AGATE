@@ -1,0 +1,61 @@
+@mixin pseudo ($content, $background-color) {
+    content: $content;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    line-height: 58px;
+    position: absolute;
+    left: -29px;
+    top: -29px;
+    color: white;
+    font-size: 0.46rem;
+    font-weight: 600;
+    text-align: center;
+    background-color: $background-color;
+}
+
+@mixin pseudo1024 {
+    font-size: 0.4rem;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    top: -23px;
+    left: -23px;
+}
+
+@mixin pseudo1300 {
+    font-size: 0.4rem;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    top: -20px;
+    left: -20px;
+}
+
+@mixin pseudo768 {
+    font-size: 0.46rem;
+    width: 56px;
+    height: 56px;
+    line-height: 56px;
+    top: -28px;
+    left: -28px;
+}
+
+@mixin btn ($color, $border-color) {
+    font-size: $small-font;
+    font-weight: 600;
+    display: block;
+    width: 312px;
+    height: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: $color;
+    border: 2px solid $border-color;
+    margin: 0 auto;
+    transition: all .7s;
+    &:hover {
+        transform: scale(1.2);
+        border: 2px solid #ffac1c;
+    }
+}

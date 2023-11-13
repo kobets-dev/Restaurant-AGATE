@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1872px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+html {
+    font-family: 'Source Serif 4', serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.caption {
+    font-size: 2.83rem;
+    line-height: 103.43px;
+    letter-spacing: 5.95px;
+    margin: 0 auto 35px;
+    max-width: 914px;
+}
+
+section,
+footer {
+    padding: 100px 0;
+}
+
+.title {
+    font-size: 1.33rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .caption {
+        font-size: 2rem;
+        line-height: 73.01px;
+        letter-spacing: 4.20px;
+    }
+    section,
+    footer {
+        padding: 80px 0;
+    }
+    .title {
+        font-size: 1.16rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .caption {
+        font-size: 1.66rem;
+        line-height: 57.65px;
+        letter-spacing: 3.50px;
+        max-width: 329px;
+    }
+    section,
+    footer {
+        padding: 70px 0;
+    }
+    .title {
+        font-size: $base-font;
+    }
+}
